@@ -5,7 +5,7 @@ public class CdPrinter implements ItemVisitor{
     }
 
     public void visit (CD c){
-        System.out.println(c.toString());
+        c.print();
     }
 
     @Override
